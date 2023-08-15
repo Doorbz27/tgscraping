@@ -1,7 +1,7 @@
 # Решение ТЗ
 
-## config.ini:
-api_id = 12345 #YOUR API_ID
+## config.ini:  
+api_id = 12345 #YOUR API_ID  
 api_hash = 12345abcde #YOUR API_HASH
 
 api_id принимает значение api_id вашего приложения telegram
