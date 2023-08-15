@@ -1,10 +1,13 @@
 # Решение ТЗ
 
 ## config.ini:  
-api_id = 12345 #YOUR API_ID  
+api_id = 12345 #YOUR API_ID 
+
 api_hash = 12345abcde #YOUR API_HASH
 
+
 api_id принимает значение api_id вашего приложения telegram
+
 api_hash принимает значение api_hash вашего приложения telegram
 
 ## main.py:
