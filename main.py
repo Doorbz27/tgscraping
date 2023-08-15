@@ -6,7 +6,6 @@ config = configparser.ConfigParser()
 config.read("config.ini")
 api_id = config['Telegram']['api_id']
 api_hash = config['Telegram']['api_hash']
-username = config['Telegram']['username']
 
 
 async def download_videos(channel, catalog, temp_id):
@@ -41,7 +40,6 @@ async def main():
     channel = await client.get_entity(url)
     catalog, temp_id = create_catalog(url)
     await download_videos(channel, catalog, temp_id)
-    # https://t.me/bluelock002
 
 
 with TelegramClient('anon', api_id, api_hash, system_version="4.16.30-vxdeal") as client:
